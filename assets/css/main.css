@@ -2,9 +2,9 @@ body{
   background: #c0c5ce;
 }
 header{
-  margin-left: 7em;
   position: relative;
   bottom: 3em;
+  left: 7em;
 }
 .imgHeader{
   float: left;
