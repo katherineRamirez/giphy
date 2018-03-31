@@ -1,9 +1,18 @@
 body{
   background: #c0c5ce;
 }
+header{
+  margin-left: 3em;
+  position: relative;
+  bottom: 3em;
+}
+.imgHeader{
+  float: left;
+  width: 200px;
+}
 .container{
-  width: 65%;
-  margin: 0 auto;
+  width: 90%;
+  margin-top: 3em;
   text-align: center;
   background-color: #65737e;
   padding: 4%;
@@ -33,4 +42,17 @@ body{
   color: white;
   text-decoration: none;
   font-size: 16px;
+}
+
+@media (min-width: 200px) and (max-width: 600px) {
+  header{
+    margin-left: 1em;
+  }
+  .imgHeader{
+    width: 50px;
+  }
+  #buscar-gif{
+    margin-top: 2em;
+  }
+
 }
