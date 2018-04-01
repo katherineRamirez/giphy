@@ -44,7 +44,7 @@ header{
   font-size: 16px;
 }
 
-@media (min-width: 200px) and (max-width: 600px) {
+@media (max-width: 600px) {
   header{
     left: 1em;
   }
@@ -56,3 +56,10 @@ header{
   }
 
 }
+@media (min-width: 200px) {
+  header{
+    left: 0.50em;
+  }
+
+}
+
