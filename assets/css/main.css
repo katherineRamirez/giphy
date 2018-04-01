@@ -46,7 +46,7 @@ header{
 
 @media (min-width: 200px) and (max-width: 600px) {
   header{
-    margin-left: 1em;
+    left: 1em;
   }
   .imgHeader{
     width: 50px;
